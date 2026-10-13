@@ -1,0 +1,50 @@
+2026-10-13T17:52:15.569177+03:00 nellie-HP-EliteBook-820-G3 sshd-session[9010]: Connection closed by invalid user invalid_user 127.0.0.1 port 53330 [preauth]
+2026-10-13T17:52:15.589332+03:00 nellie-HP-EliteBook-820-G3 sshd-session[9008]: Connection closed by invalid user invalid_user 127.0.0.1 port 53314 [preauth]
+2026-10-13T17:52:58.817909+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by nellie(uid=1000)
+2026-10-13T17:52:58.845043+03:00 nellie-HP-EliteBook-820-G3 sudo: nellie : TTY=/dev/pts/0 ; PWD=/home/nellie/linux-ssh-intrusion-detection ; USER=root ; COMMAND=/usr/bin/python3 scripts/log_parser.py
+2026-10-13T17:52:59.115213+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T17:55:49.866760+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by nellie(uid=1000)
+2026-10-13T17:55:49.867705+03:00 nellie-HP-EliteBook-820-G3 sudo: nellie : TTY=/dev/pts/0 ; PWD=/home/nellie/linux-ssh-intrusion-detection ; USER=root ; COMMAND=/usr/sbin/ufw enable
+2026-10-13T17:55:50.952567+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T17:56:07.915506+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by nellie(uid=1000)
+2026-10-13T17:56:07.918810+03:00 nellie-HP-EliteBook-820-G3 sudo: nellie : TTY=/dev/pts/0 ; PWD=/home/nellie/linux-ssh-intrusion-detection ; USER=root ; COMMAND=/usr/sbin/ufw deny from 192.168.1.100 to any port 22
+2026-10-13T17:56:08.477561+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T17:56:22.192130+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by nellie(uid=1000)
+2026-10-13T17:56:22.194321+03:00 nellie-HP-EliteBook-820-G3 sudo: nellie : TTY=/dev/pts/0 ; PWD=/home/nellie/linux-ssh-intrusion-detection ; USER=root ; COMMAND=/usr/sbin/ufw status numbered
+2026-10-13T17:56:22.809256+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T17:56:37.687038+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by nellie(uid=1000)
+2026-10-13T17:56:37.688854+03:00 nellie-HP-EliteBook-820-G3 sudo: nellie : TTY=/dev/pts/0 ; PWD=/home/nellie/linux-ssh-intrusion-detection ; USER=root ; COMMAND=/usr/bin/tail -n 50 /var/log/auth.log
+2026-10-13T17:56:37.718529+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T18:01:03.572801+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by nellie(uid=1000)
+2026-10-13T18:01:03.575266+03:00 nellie-HP-EliteBook-820-G3 sudo: nellie : TTY=/dev/pts/0 ; PWD=/home/nellie/linux-ssh-intrusion-detection ; USER=root ; COMMAND=/usr/bin/apt install git
+2026-10-13T18:01:40.892119+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session closed for user root
+2026-10-13T18:04:07.728231+03:00 nellie-HP-EliteBook-820-G3 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by nellie(uid=1000)
+2026-10-13T18:04:07.731599+03:00 nellie-HP-EliteBook-820-G3 pkexec[9735]: nellie: Executing command [USER=root] [TTY=unknown] [CWD=/home/nellie] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-10-13T18:08:11.855067+03:00 nellie-HP-EliteBook-820-G3 systemd-logind[1114]: The system will reboot now!
+2026-10-13T18:08:12.003403+03:00 nellie-HP-EliteBook-820-G3 systemd-logind[1114]: System is rebooting.
+2026-10-13T18:08:12.206208+03:00 nellie-HP-EliteBook-820-G3 gdm-password]: pam_unix(gdm-password:session): session closed for user nellie
+2026-10-13T18:08:12.637535+03:00 nellie-HP-EliteBook-820-G3 dbus-daemon[1080]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.14" (uid=0 pid=1452 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.79" (uid=1000 pid=2970 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-13T18:08:12.986240+03:00 nellie-HP-EliteBook-820-G3 systemd-logind[1114]: Session 2 logged out. Waiting for processes to exit.
+2026-10-13T18:08:46.719870+03:00 nellie-HP-EliteBook-820-G3 sshd[1809]: Server listening on 0.0.0.0 port 22.
+2026-10-13T18:08:46.720385+03:00 nellie-HP-EliteBook-820-G3 sshd[1809]: Server listening on :: port 22.
+2026-10-13T18:08:46.933624+03:00 nellie-HP-EliteBook-820-G3 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-10-13T18:08:46.986057+03:00 nellie-HP-EliteBook-820-G3 systemd-logind[1563]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-10-13T18:08:47.104707+03:00 nellie-HP-EliteBook-820-G3 (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-10-13T18:08:47.109083+03:00 nellie-HP-EliteBook-820-G3 systemd-logind[1563]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-10-13T18:10:08.458320+03:00 nellie-HP-EliteBook-820-G3 gdm-password]: gkr-pam: unable to locate daemon control file
+2026-10-13T18:10:08.458810+03:00 nellie-HP-EliteBook-820-G3 gdm-password]: gkr-pam: stashed password to try later in open session
+2026-10-13T18:10:08.495220+03:00 nellie-HP-EliteBook-820-G3 gdm-password]: pam_unix(gdm-password:session): session opened for user nellie(uid=1000) by nellie(uid=0)
+2026-10-13T18:10:08.545019+03:00 nellie-HP-EliteBook-820-G3 systemd-logind[1563]: New session '2' of user 'nellie' with class 'user' and type 'wayland'.
+2026-10-13T18:10:08.679889+03:00 nellie-HP-EliteBook-820-G3 (systemd): pam_unix(systemd-user:session): session opened for user nellie(uid=1000) by nellie(uid=0)
+2026-10-13T18:10:08.684928+03:00 nellie-HP-EliteBook-820-G3 systemd-logind[1563]: New session '3' of user 'nellie' with class 'manager' and type 'unspecified'.
+2026-10-13T18:10:09.918799+03:00 nellie-HP-EliteBook-820-G3 gdm-password]: gkr-pam: unlocked login keyring
+2026-10-13T18:10:26.351990+03:00 nellie-HP-EliteBook-820-G3 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-10-13T18:10:26.384386+03:00 nellie-HP-EliteBook-820-G3 systemd-logind[1563]: Session c1 logged out. Waiting for processes to exit.
+2026-10-13T18:10:26.403521+03:00 nellie-HP-EliteBook-820-G3 systemd-logind[1563]: Removed session c1.
+2026-10-13T18:10:33.898293+03:00 nellie-HP-EliteBook-820-G3 pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by nellie(uid=1000)
+2026-10-13T18:10:33.901601+03:00 nellie-HP-EliteBook-820-G3 pkexec[4432]: nellie: Executing command [USER=root] [TTY=unknown] [CWD=/home/nellie] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-10-13T18:10:36.769192+03:00 nellie-HP-EliteBook-820-G3 systemd-logind[1563]: Removed session 1.
+2026-10-13T18:17:02.006142+03:00 nellie-HP-EliteBook-820-G3 CRON[5565]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-10-13T18:17:02.015558+03:00 nellie-HP-EliteBook-820-G3 CRON[5565]: pam_unix(cron:session): session closed for user root
+2026-10-13T18:25:03.277504+03:00 nellie-HP-EliteBook-820-G3 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by nellie(uid=1000)
+2026-10-13T18:25:03.287723+03:00 nellie-HP-EliteBook-820-G3 sudo: nellie : TTY=/dev/pts/0 ; PWD=/home/nellie/linux-ssh-intrusion-detection ; USER=root ; COMMAND=/usr/bin/tail -n 50 /var/log/auth.log
